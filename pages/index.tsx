@@ -33,6 +33,13 @@ const Home: NextPage = () => {
             </div>
           </Link>
 
+          <Link href="/marketing-original" passHref>
+            <div className={styles.card}>
+              <h2>Baseline</h2>
+              <p>Without any A/B testing as a baseline</p>
+            </div>
+          </Link>
+
         </div>
       </main>
 
